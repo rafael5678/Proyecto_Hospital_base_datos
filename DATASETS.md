@@ -30,3 +30,5 @@ Mañana: Apache Spark para descargar y unificar fuentes abiertas (no PhysioNet/M
 - DermNet NZ (atlas con copyright, no dataset)
 - SIMON / Precio País (nombres incorrectos; usar SISMED)
 - Scraping de droguerías sin términos claros
+
+<!-- Catálogo de datos clínicos para modelos de apoyo al diagnóstico dermatológico y triaje -->
