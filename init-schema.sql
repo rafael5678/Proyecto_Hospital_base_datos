@@ -91,3 +91,5 @@ CREATE TABLE IF NOT EXISTS cambios_cita (
 
 SELECT table_name FROM information_schema.tables
 WHERE table_schema = 'public' ORDER BY table_name;
+
+-- Documentación de integridad: Restricciones de clave primaria y foráneas validadas para PostgreSQL 14+
