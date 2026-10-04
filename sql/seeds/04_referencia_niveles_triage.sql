@@ -1,0 +1,1 @@
+-- Niveles de triaje clínico ESI: ALTA (Resucitación/Emergencia), MEDIA (Urgente), BAJA (No urgente)
