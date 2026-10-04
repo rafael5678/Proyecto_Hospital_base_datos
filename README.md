@@ -11,3 +11,5 @@ Scripts SQL del portal hospitalario (PostgreSQL 16).
 El backend usa Hibernate `ddl-auto=update` sobre PostgreSQL de Render. Este repo documenta el modelo para el curso.
 
 No subas contraseñas. Las credenciales van solo en el panel de Render.
+
+<!-- Esquema de base de datos hospitalaria y scripts de despliegue sincronizados -->
