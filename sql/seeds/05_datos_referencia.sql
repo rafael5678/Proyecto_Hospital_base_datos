@@ -1,2 +1,0 @@
--- Registros de referencia inicial para pruebas de integridad
--- Categorías estándar de triage médico y franjas horarias base

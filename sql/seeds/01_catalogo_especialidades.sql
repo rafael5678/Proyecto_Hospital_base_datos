@@ -1,2 +1,0 @@
--- Catálogo de especialidades médicas de referencia para el hospital
--- Medicina General, Dermatología, Pediatría, Cardiología, Medicina Interna

@@ -1,1 +1,0 @@
--- Matriz de roles del sistema hospitalario: PACIENTE, MEDICO, ADMIN

@@ -1,1 +1,0 @@
--- Estados autorizados en el flujo de citas: PENDIENTE, CONFIRMADA, ATENDIDA, CANCELADA
