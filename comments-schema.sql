@@ -26,3 +26,4 @@ COMMENT ON COLUMN usuarios.telefono IS 'Optional Colombian phone, 10 digits when
 COMMENT ON COLUMN usuarios.activo IS 'False hides the account from login without deleting it.';
 COMMENT ON COLUMN pacientes.id IS 'Primary key of the patient profile.';
 COMMENT ON COLUMN pacientes.usuario_id IS 'Login row this patient belongs to. One per user.';
+COMMENT ON COLUMN pacientes.documento IS 'Colombian ID, at most 10 digits, or a short demo label.';
