@@ -10,3 +10,10 @@ COMMENT ON TABLE horarios IS 'Weekly work windows for each doctor.';
 COMMENT ON TABLE citas IS 'Appointments. fecha_hora is Colombia wall clock.';
 COMMENT ON TABLE cambios_cita IS 'Reschedule history and which emails already went out.';
 COMMENT ON TABLE notificaciones IS 'In-app bell notices for a user.';
+
+COMMENT ON COLUMN usuarios.clave_cifrada IS 'Admin-readable encrypted copy. Login still uses BCrypt password.';
+COMMENT ON COLUMN citas.fecha_hora IS 'Colombia wall clock of the booked slot, not UTC Instant.';
+COMMENT ON COLUMN citas.concluida_en IS 'Colombia clock of when the visit was actually finished.';
+COMMENT ON COLUMN citas.receta IS 'Prescription text sent by the doctor.';
+COMMENT ON COLUMN citas.estado IS 'PENDIENTE, ACEPTADA, RECHAZADA, CANCELADA, or COMPLETADA.';
+COMMENT ON COLUMN notificaciones.mensaje IS 'Notice body. Up to 4000 characters.';
