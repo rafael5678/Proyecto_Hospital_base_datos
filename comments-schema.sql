@@ -53,3 +53,4 @@ COMMENT ON COLUMN administradores.extension_telefonica IS 'Internal phone extens
 COMMENT ON COLUMN horarios.id IS 'Primary key of a weekly work window.';
 COMMENT ON COLUMN horarios.medico_id IS 'Doctor who owns this work window.';
 COMMENT ON COLUMN horarios.dia_semana IS '1=Monday through 7=Sunday.';
+COMMENT ON COLUMN horarios.hora_inicio IS 'Start of the work window, Colombia clock.';
