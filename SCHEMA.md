@@ -20,8 +20,9 @@ PostgreSQL 16. Live Render uses Hibernate `ddl-auto=update`. This folder is the 
 
 1. `init-schema.sql` — create tables and indexes.
 2. `migrate-live-columns.sql` — add columns that older copies were missing.
-3. `seed-especialidades.sql` — default specialty names.
-4. `comments-schema.sql` — table comments for DBeaver.
-5. `completar-datos-demo.sql` — fill demo profiles and readable views.
+3. `indexes.sql` — the same indexes for a database that already exists.
+4. `seed-especialidades.sql` — default specialty names.
+5. `comments-schema.sql` — table comments for DBeaver.
+6. `completar-datos-demo.sql` — fill demo profiles and readable views.
 
 Do not commit passwords. Credentials stay in the Render panel.
