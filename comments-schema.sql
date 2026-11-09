@@ -29,3 +29,4 @@ COMMENT ON COLUMN pacientes.usuario_id IS 'Login row this patient belongs to. On
 COMMENT ON COLUMN pacientes.documento IS 'Colombian ID, at most 10 digits, or a short demo label.';
 COMMENT ON COLUMN pacientes.fecha_nacimiento IS 'Birth date used on the patient file.';
 COMMENT ON COLUMN pacientes.genero IS 'Gender written on the patient file.';
+COMMENT ON COLUMN pacientes.tipo_sangre IS 'Blood type shown to the doctor.';
