@@ -43,3 +43,4 @@ COMMENT ON COLUMN medicos.usuario_id IS 'Login row this doctor belongs to. One p
 COMMENT ON COLUMN medicos.especialidad IS 'Specialty name, usually matching especialidades.nombre.';
 COMMENT ON COLUMN medicos.numero_licencia IS 'Medical license number shown on the file.';
 COMMENT ON COLUMN medicos.consultorio IS 'Room or office label, for example Consultorio 301.';
+COMMENT ON COLUMN medicos.anos_experiencia IS 'Years of practice shown on the doctor file.';
