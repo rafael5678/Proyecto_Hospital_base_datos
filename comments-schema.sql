@@ -31,3 +31,4 @@ COMMENT ON COLUMN pacientes.fecha_nacimiento IS 'Birth date used on the patient 
 COMMENT ON COLUMN pacientes.genero IS 'Gender written on the patient file.';
 COMMENT ON COLUMN pacientes.tipo_sangre IS 'Blood type shown to the doctor.';
 COMMENT ON COLUMN pacientes.direccion IS 'Street address of the patient.';
+COMMENT ON COLUMN pacientes.ciudad IS 'City of the patient, usually Cartagena in demos.';
