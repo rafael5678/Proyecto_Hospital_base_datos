@@ -37,3 +37,4 @@ COMMENT ON COLUMN pacientes.contacto_emergencia IS 'Name of the emergency contac
 COMMENT ON COLUMN pacientes.telefono_emergencia IS 'Phone of the emergency contact.';
 COMMENT ON COLUMN pacientes.observaciones IS 'Free clinical notes on the patient file.';
 COMMENT ON COLUMN especialidades.id IS 'Primary key of a catalog specialty.';
+COMMENT ON COLUMN especialidades.nombre IS 'Unique specialty name, for example DermatologÃ­a.';
