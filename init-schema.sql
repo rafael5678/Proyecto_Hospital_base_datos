@@ -28,6 +28,11 @@ CREATE TABLE IF NOT EXISTS pacientes (
     observaciones       VARCHAR(255)
 );
 
+CREATE TABLE IF NOT EXISTS especialidades (
+    id     BIGSERIAL PRIMARY KEY,
+    nombre VARCHAR(80) NOT NULL UNIQUE
+);
+
 CREATE TABLE IF NOT EXISTS medicos (
     id                BIGSERIAL PRIMARY KEY,
     usuario_id        BIGINT NOT NULL UNIQUE REFERENCES usuarios(id) ON DELETE CASCADE,
