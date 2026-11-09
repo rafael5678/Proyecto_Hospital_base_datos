@@ -49,3 +49,4 @@ COMMENT ON COLUMN administradores.id IS 'Primary key of the admin profile.';
 COMMENT ON COLUMN administradores.usuario_id IS 'Login row this admin belongs to. One per user.';
 COMMENT ON COLUMN administradores.cargo IS 'Job title, for example Gerencia General.';
 COMMENT ON COLUMN administradores.departamento IS 'Hospital area the admin belongs to.';
+COMMENT ON COLUMN administradores.extension_telefonica IS 'Internal phone extension.';
