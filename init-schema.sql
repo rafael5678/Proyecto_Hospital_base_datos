@@ -71,6 +71,7 @@ CREATE TABLE IF NOT EXISTS citas (
     estado      VARCHAR(255) NOT NULL,
     motivo      VARCHAR(255),
     notas       VARCHAR(255),
+    receta      TEXT,
     triage_severidad VARCHAR(32),
     triage_nivel_esi INTEGER,
     triage_prioridad INTEGER,
