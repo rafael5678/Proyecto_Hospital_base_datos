@@ -41,3 +41,4 @@ COMMENT ON COLUMN especialidades.nombre IS 'Unique specialty name, for example D
 COMMENT ON COLUMN medicos.id IS 'Primary key of the doctor profile.';
 COMMENT ON COLUMN medicos.usuario_id IS 'Login row this doctor belongs to. One per user.';
 COMMENT ON COLUMN medicos.especialidad IS 'Specialty name, usually matching especialidades.nombre.';
+COMMENT ON COLUMN medicos.numero_licencia IS 'Medical license number shown on the file.';
