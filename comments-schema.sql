@@ -74,3 +74,4 @@ COMMENT ON COLUMN citas.dermatologia_score_riesgo IS 'Skin risk score from 0.0 t
 COMMENT ON COLUMN citas.dermatologia_top_diagnostico IS 'Main skin finding suggested by the model.';
 COMMENT ON COLUMN cambios_cita.id IS 'Primary key of a reschedule row.';
 COMMENT ON COLUMN cambios_cita.cita_id IS 'Visit that was moved.';
+COMMENT ON COLUMN cambios_cita.fecha_anterior IS 'Colombia clock of the old slot.';
