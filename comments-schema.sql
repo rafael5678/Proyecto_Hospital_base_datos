@@ -27,3 +27,4 @@ COMMENT ON COLUMN usuarios.activo IS 'False hides the account from login without
 COMMENT ON COLUMN pacientes.id IS 'Primary key of the patient profile.';
 COMMENT ON COLUMN pacientes.usuario_id IS 'Login row this patient belongs to. One per user.';
 COMMENT ON COLUMN pacientes.documento IS 'Colombian ID, at most 10 digits, or a short demo label.';
+COMMENT ON COLUMN pacientes.fecha_nacimiento IS 'Birth date used on the patient file.';
