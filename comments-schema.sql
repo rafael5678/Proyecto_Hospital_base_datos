@@ -39,3 +39,4 @@ COMMENT ON COLUMN pacientes.observaciones IS 'Free clinical notes on the patient
 COMMENT ON COLUMN especialidades.id IS 'Primary key of a catalog specialty.';
 COMMENT ON COLUMN especialidades.nombre IS 'Unique specialty name, for example DermatologÃ­a.';
 COMMENT ON COLUMN medicos.id IS 'Primary key of the doctor profile.';
+COMMENT ON COLUMN medicos.usuario_id IS 'Login row this doctor belongs to. One per user.';
