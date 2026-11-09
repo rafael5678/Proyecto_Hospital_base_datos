@@ -77,3 +77,4 @@ COMMENT ON COLUMN cambios_cita.cita_id IS 'Visit that was moved.';
 COMMENT ON COLUMN cambios_cita.fecha_anterior IS 'Colombia clock of the old slot.';
 COMMENT ON COLUMN cambios_cita.fecha_nueva IS 'Colombia clock of the new slot.';
 COMMENT ON COLUMN cambios_cita.motivo IS 'Why the visit was moved.';
+COMMENT ON COLUMN cambios_cita.realizado_por IS 'Who moved the visit.';
