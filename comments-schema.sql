@@ -67,3 +67,4 @@ COMMENT ON COLUMN citas.triage_prioridad IS 'Orientation priority from 1 to 10.'
 COMMENT ON COLUMN citas.triage_especialidad_sugerida IS 'Specialty the triage suggested.';
 COMMENT ON COLUMN citas.triage_resumen IS 'Clinical summary the doctor reads before the visit.';
 COMMENT ON COLUMN citas.triage_sintomas IS 'Symptoms captured at booking.';
+COMMENT ON COLUMN citas.triage_duracion IS 'How long the symptoms have lasted.';
