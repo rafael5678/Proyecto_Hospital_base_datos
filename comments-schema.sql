@@ -25,3 +25,4 @@ COMMENT ON COLUMN usuarios.rol IS 'PACIENTE, MEDICO, or ADMIN. Decides which por
 COMMENT ON COLUMN usuarios.telefono IS 'Optional Colombian phone, 10 digits when present.';
 COMMENT ON COLUMN usuarios.activo IS 'False hides the account from login without deleting it.';
 COMMENT ON COLUMN pacientes.id IS 'Primary key of the patient profile.';
+COMMENT ON COLUMN pacientes.usuario_id IS 'Login row this patient belongs to. One per user.';
