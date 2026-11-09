@@ -72,3 +72,4 @@ COMMENT ON COLUMN citas.triage_antecedentes IS 'Background the patient reported 
 COMMENT ON COLUMN citas.dermatologia_reporta_ia IS 'Skin report plus differentials from the image model.';
 COMMENT ON COLUMN citas.dermatologia_score_riesgo IS 'Skin risk score from 0.0 to 1.0.';
 COMMENT ON COLUMN citas.dermatologia_top_diagnostico IS 'Main skin finding suggested by the model.';
+COMMENT ON COLUMN cambios_cita.id IS 'Primary key of a reschedule row.';
