@@ -46,3 +46,4 @@ COMMENT ON COLUMN medicos.consultorio IS 'Room or office label, for example Cons
 COMMENT ON COLUMN medicos.anos_experiencia IS 'Years of practice shown on the doctor file.';
 COMMENT ON COLUMN medicos.biografia IS 'Short bio shown on the doctor file.';
 COMMENT ON COLUMN administradores.id IS 'Primary key of the admin profile.';
+COMMENT ON COLUMN administradores.usuario_id IS 'Login row this admin belongs to. One per user.';
