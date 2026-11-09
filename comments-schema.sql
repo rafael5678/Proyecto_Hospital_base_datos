@@ -68,3 +68,4 @@ COMMENT ON COLUMN citas.triage_especialidad_sugerida IS 'Specialty the triage su
 COMMENT ON COLUMN citas.triage_resumen IS 'Clinical summary the doctor reads before the visit.';
 COMMENT ON COLUMN citas.triage_sintomas IS 'Symptoms captured at booking.';
 COMMENT ON COLUMN citas.triage_duracion IS 'How long the symptoms have lasted.';
+COMMENT ON COLUMN citas.triage_antecedentes IS 'Background the patient reported at booking.';
