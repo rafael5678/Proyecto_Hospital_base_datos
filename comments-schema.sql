@@ -35,3 +35,4 @@ COMMENT ON COLUMN pacientes.ciudad IS 'City of the patient, usually Cartagena in
 COMMENT ON COLUMN pacientes.alergias IS 'Known allergies the doctor must see.';
 COMMENT ON COLUMN pacientes.contacto_emergencia IS 'Name of the emergency contact.';
 COMMENT ON COLUMN pacientes.telefono_emergencia IS 'Phone of the emergency contact.';
+COMMENT ON COLUMN pacientes.observaciones IS 'Free clinical notes on the patient file.';
