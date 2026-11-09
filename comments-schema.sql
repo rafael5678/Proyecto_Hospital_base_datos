@@ -70,3 +70,4 @@ COMMENT ON COLUMN citas.triage_sintomas IS 'Symptoms captured at booking.';
 COMMENT ON COLUMN citas.triage_duracion IS 'How long the symptoms have lasted.';
 COMMENT ON COLUMN citas.triage_antecedentes IS 'Background the patient reported at booking.';
 COMMENT ON COLUMN citas.dermatologia_reporta_ia IS 'Skin report plus differentials from the image model.';
+COMMENT ON COLUMN citas.dermatologia_score_riesgo IS 'Skin risk score from 0.0 to 1.0.';
