@@ -58,3 +58,4 @@ COMMENT ON COLUMN horarios.hora_fin IS 'End of the work window, Colombia clock.'
 COMMENT ON COLUMN horarios.disponible IS 'False closes that window without deleting it.';
 COMMENT ON COLUMN citas.id IS 'Primary key of the visit.';
 COMMENT ON COLUMN citas.paciente_id IS 'Patient who booked the visit.';
+COMMENT ON COLUMN citas.medico_id IS 'Doctor assigned to the visit.';
