@@ -84,3 +84,4 @@ COMMENT ON COLUMN cambios_cita.correo_medico_enviado IS 'True after the doctor e
 COMMENT ON COLUMN notificaciones.id IS 'Primary key of a bell notice.';
 COMMENT ON COLUMN notificaciones.usuario_id IS 'User who should see this notice.';
 COMMENT ON COLUMN notificaciones.titulo IS 'Short title in the bell list, up to 160 characters.';
+COMMENT ON COLUMN notificaciones.tipo IS 'Notice kind, for example visit moved or accepted.';
