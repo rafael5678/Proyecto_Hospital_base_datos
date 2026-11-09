@@ -69,3 +69,4 @@ COMMENT ON COLUMN citas.triage_resumen IS 'Clinical summary the doctor reads bef
 COMMENT ON COLUMN citas.triage_sintomas IS 'Symptoms captured at booking.';
 COMMENT ON COLUMN citas.triage_duracion IS 'How long the symptoms have lasted.';
 COMMENT ON COLUMN citas.triage_antecedentes IS 'Background the patient reported at booking.';
+COMMENT ON COLUMN citas.dermatologia_reporta_ia IS 'Skin report plus differentials from the image model.';
