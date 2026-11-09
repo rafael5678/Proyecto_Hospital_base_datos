@@ -22,3 +22,4 @@ COMMENT ON COLUMN usuarios.nombre IS 'Display name shown in portals and lists.';
 COMMENT ON COLUMN usuarios.email IS 'Unique login identifier. Also used as username.';
 COMMENT ON COLUMN usuarios.password IS 'BCrypt hash used by login. Not the admin-readable copy.';
 COMMENT ON COLUMN usuarios.rol IS 'PACIENTE, MEDICO, or ADMIN. Decides which portal opens.';
+COMMENT ON COLUMN usuarios.telefono IS 'Optional Colombian phone, 10 digits when present.';
