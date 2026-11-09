@@ -79,3 +79,4 @@ COMMENT ON COLUMN cambios_cita.fecha_nueva IS 'Colombia clock of the new slot.';
 COMMENT ON COLUMN cambios_cita.motivo IS 'Why the visit was moved.';
 COMMENT ON COLUMN cambios_cita.realizado_por IS 'Who moved the visit.';
 COMMENT ON COLUMN cambios_cita.creado_en IS 'When the reschedule row was written.';
+COMMENT ON COLUMN cambios_cita.correo_paciente_enviado IS 'True after the patient email went out.';
