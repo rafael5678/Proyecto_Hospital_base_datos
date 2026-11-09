@@ -101,8 +101,8 @@ CREATE TABLE IF NOT EXISTS cambios_cita (
 CREATE TABLE IF NOT EXISTS notificaciones (
     id BIGSERIAL PRIMARY KEY,
     usuario_id BIGINT NOT NULL REFERENCES usuarios(id) ON DELETE CASCADE,
-    titulo VARCHAR(180) NOT NULL,
-    mensaje VARCHAR(800) NOT NULL,
+    titulo VARCHAR(160) NOT NULL,
+    mensaje VARCHAR(4000) NOT NULL,
     tipo VARCHAR(40) NOT NULL,
     leida BOOLEAN NOT NULL DEFAULT FALSE,
     cita_id BIGINT,
