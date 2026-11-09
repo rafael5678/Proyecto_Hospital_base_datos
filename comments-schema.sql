@@ -65,3 +65,4 @@ COMMENT ON COLUMN citas.triage_severidad IS 'ROJO, NARANJA, AMARILLO, VERDE, or 
 COMMENT ON COLUMN citas.triage_nivel_esi IS 'Emergency Severity Index from 1 to 5.';
 COMMENT ON COLUMN citas.triage_prioridad IS 'Orientation priority from 1 to 10.';
 COMMENT ON COLUMN citas.triage_especialidad_sugerida IS 'Specialty the triage suggested.';
+COMMENT ON COLUMN citas.triage_resumen IS 'Clinical summary the doctor reads before the visit.';
