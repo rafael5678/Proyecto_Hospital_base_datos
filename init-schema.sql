@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS citas (
     paciente_id BIGINT NOT NULL REFERENCES pacientes(id) ON DELETE CASCADE,
     medico_id   BIGINT NOT NULL REFERENCES medicos(id) ON DELETE CASCADE,
     fecha_hora  TIMESTAMP NOT NULL,
-    estado      VARCHAR(255) NOT NULL,
+    estado      VARCHAR(255) NOT NULL CHECK (estado IN ('PENDIENTE','ACEPTADA','RECHAZADA','CANCELADA','COMPLETADA')),
     motivo      VARCHAR(255),
     notas       VARCHAR(255),
     receta      TEXT,
