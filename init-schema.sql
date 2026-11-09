@@ -1,5 +1,6 @@
--- Sistema Hospy - Esquema completo (6 tablas)
--- Ejecutar en pgAdmin sobre la base de datos de Railway/Render
+-- Sistema Hospy - Esquema PostgreSQL (usuarios, perfiles, especialidades, citas, avisos)
+-- Ejecutar en pgAdmin sobre la base de datos de Render
+-- Hibernate ddl-auto=update también aplica estas columnas en vivo.
 
 -- 1. Usuarios generales (login JWT)
 CREATE TABLE IF NOT EXISTS usuarios (
@@ -8,8 +9,9 @@ CREATE TABLE IF NOT EXISTS usuarios (
     email      VARCHAR(255) NOT NULL UNIQUE,
     password   VARCHAR(255) NOT NULL,
     rol        VARCHAR(255) NOT NULL CHECK (rol IN ('PACIENTE','MEDICO','ADMIN')),
-    telefono   VARCHAR(255),
-    activo     BOOLEAN DEFAULT TRUE
+    telefono       VARCHAR(255),
+    activo         BOOLEAN DEFAULT TRUE,
+    clave_cifrada  VARCHAR(500)
 );
 
 -- 2. Perfiles por rol
