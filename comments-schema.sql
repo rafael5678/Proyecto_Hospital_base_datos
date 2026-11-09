@@ -82,3 +82,4 @@ COMMENT ON COLUMN cambios_cita.creado_en IS 'When the reschedule row was written
 COMMENT ON COLUMN cambios_cita.correo_paciente_enviado IS 'True after the patient email went out.';
 COMMENT ON COLUMN cambios_cita.correo_medico_enviado IS 'True after the doctor email went out.';
 COMMENT ON COLUMN notificaciones.id IS 'Primary key of a bell notice.';
+COMMENT ON COLUMN notificaciones.usuario_id IS 'User who should see this notice.';
