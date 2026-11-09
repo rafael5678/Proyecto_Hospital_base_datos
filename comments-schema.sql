@@ -23,3 +23,4 @@ COMMENT ON COLUMN usuarios.email IS 'Unique login identifier. Also used as usern
 COMMENT ON COLUMN usuarios.password IS 'BCrypt hash used by login. Not the admin-readable copy.';
 COMMENT ON COLUMN usuarios.rol IS 'PACIENTE, MEDICO, or ADMIN. Decides which portal opens.';
 COMMENT ON COLUMN usuarios.telefono IS 'Optional Colombian phone, 10 digits when present.';
+COMMENT ON COLUMN usuarios.activo IS 'False hides the account from login without deleting it.';
