@@ -18,3 +18,4 @@ COMMENT ON COLUMN citas.receta IS 'Prescription text sent by the doctor.';
 COMMENT ON COLUMN citas.estado IS 'PENDIENTE, ACEPTADA, RECHAZADA, CANCELADA, or COMPLETADA.';
 COMMENT ON COLUMN notificaciones.mensaje IS 'Notice body. Up to 4000 characters.';
 COMMENT ON COLUMN usuarios.id IS 'Primary key of the login account.';
+COMMENT ON COLUMN usuarios.nombre IS 'Display name shown in portals and lists.';
