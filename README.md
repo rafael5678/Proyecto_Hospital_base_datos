@@ -9,6 +9,7 @@ Scripts SQL del portal hospitalario (PostgreSQL 16).
 - `migrate-live-columns.sql` — columnas que Hibernate ya crea en Render (`receta`, `concluida_en`, `clave_cifrada`).
 - `seed-especialidades.sql` — catálogo inicial de especialidades.
 - `comments-schema.sql` — comentarios de tablas y columnas para DBeaver.
+- `indexes.sql` — índices para una base que ya existía.
 - `completar-datos-demo.sql` — perfiles completos + vistas legibles (`v_directorio`, `v_pacientes_completos`, `v_medicos_completos`, `v_administradores_completos`).
 
 En DBeaver no busques al administrador dentro de `pacientes`. Ábrelo en `usuarios` / `administradores`, o mejor en la vista `v_directorio`.
