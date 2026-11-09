@@ -75,3 +75,4 @@ COMMENT ON COLUMN citas.dermatologia_top_diagnostico IS 'Main skin finding sugge
 COMMENT ON COLUMN cambios_cita.id IS 'Primary key of a reschedule row.';
 COMMENT ON COLUMN cambios_cita.cita_id IS 'Visit that was moved.';
 COMMENT ON COLUMN cambios_cita.fecha_anterior IS 'Colombia clock of the old slot.';
+COMMENT ON COLUMN cambios_cita.fecha_nueva IS 'Colombia clock of the new slot.';
