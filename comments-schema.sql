@@ -87,3 +87,4 @@ COMMENT ON COLUMN notificaciones.titulo IS 'Short title in the bell list, up to 
 COMMENT ON COLUMN notificaciones.tipo IS 'Notice kind, for example visit moved or accepted.';
 COMMENT ON COLUMN notificaciones.leida IS 'True after the user opens the notice.';
 COMMENT ON COLUMN notificaciones.cita_id IS 'Optional visit this notice points to.';
+COMMENT ON COLUMN notificaciones.creada_en IS 'When the notice was created.';
