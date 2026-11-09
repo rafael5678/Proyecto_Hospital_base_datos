@@ -60,3 +60,4 @@ COMMENT ON COLUMN citas.id IS 'Primary key of the visit.';
 COMMENT ON COLUMN citas.paciente_id IS 'Patient who booked the visit.';
 COMMENT ON COLUMN citas.medico_id IS 'Doctor assigned to the visit.';
 COMMENT ON COLUMN citas.motivo IS 'Reason the patient wrote when booking.';
+COMMENT ON COLUMN citas.notas IS 'Doctor notes saved on the visit.';
