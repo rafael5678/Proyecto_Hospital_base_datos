@@ -51,3 +51,4 @@ COMMENT ON COLUMN administradores.cargo IS 'Job title, for example Gerencia Gene
 COMMENT ON COLUMN administradores.departamento IS 'Hospital area the admin belongs to.';
 COMMENT ON COLUMN administradores.extension_telefonica IS 'Internal phone extension.';
 COMMENT ON COLUMN horarios.id IS 'Primary key of a weekly work window.';
+COMMENT ON COLUMN horarios.medico_id IS 'Doctor who owns this work window.';
